@@ -1,0 +1,41 @@
+.dashboard {
+    background-color: #E0EDFE;
+}
+
+.dashboard .heading {
+    background-color: #2281FF;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.dashboard .heading button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.dashboard .itemContainer {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.dashboard .button {
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #2281FF;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+

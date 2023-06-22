@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+.login {
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #2281FF; */
+    background-image: linear-gradient(#4C82CF,#745CBA);
+}
+
+.Otp {
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2281FF;
+}
+
+.OtpContainer {
+    height: 60%;
+    width: 50%;
+    background-color:#E0EDFE ;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+
+.container {
+    height: 70%;
+    width: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 70px 20px;
+
+    border-radius: 10px;
+    background-color:#E0EDFE ;
+}
+
+.leftBlock {
+    width: 50%;
+    height: 100%;
+    background-color: #E0EDFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.leftBlock img {
+    width: 100%;
+    height: inherit;
+    border-radius: 50px;
+}
+
+
+.rightBlock {
+    width: 50%;
+    height: 100%;
+    background-color: #E0EDFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    border-radius: 50px;
+
+}
+
+.formSection {
+    height: 80%;
+    width: 80%;
+}
+
+.formSection form {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height:100%;
+}
+.formSection form label {
+    margin-left: 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+.formSection form p {
+    color: red;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+
+.formSection form input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.formSection form button {
+    width: 100%;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #2281FF;
+    margin-top: 0px;
+}

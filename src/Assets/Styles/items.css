@@ -1,0 +1,25 @@
+.cvItems {
+    background-color: aliceblue;
+    height: 280px;
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cvItems .image img {
+    padding-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.buttons button {
+    color: white;
+    background-color: #2281FF;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
